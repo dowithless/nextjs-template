@@ -1,4 +1,4 @@
-import { FC } from "react";
+import type { FC } from "react";
 import { BaseTemplateProps } from "./interface";
 
 export const BaseTemplate: FC<BaseTemplateProps> = ({ message, onGreet }) => {
